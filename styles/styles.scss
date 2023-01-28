@@ -24,22 +24,35 @@ main {
 
     div.nft-card-body {
         display: flex;
-        margin: auto;
         flex-direction: column;
+        align-items: center;
+
         width: 455px;
         height: 706.5px;
         padding: 31.2px;
-        border: 1px solid black;
+        border: 1px solid rgb(8, 24, 47);
+        box-shadow: -25px 25px 10px 10px rgb(8, 24, 47);
+        border-radius: 15px;
         background-color: rgb(21, 39, 63);
 
         header figure.nft-image-container {
             display: flex;
-            flex-direction: row;
-            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             margin: auto;
+            border-radius: 15px;
             height: 361.49px;
             width: 400.4px;
             position: relative;
+        }
+        header.top-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400.4px;
+            height: 361.49px;
         }
     }
 }
@@ -50,24 +63,44 @@ h1.card-title {
 }
 
 img.main-img {
-    object-fit: contain;
     border-radius: 15px;
     width: 400.4px;
     height: 361.49px;
-    border-radius: 15px;
 }
 
 img.hover-icon {
     object-fit: contain;
     border-radius: 15px;
-    position: absolute;
-    transform: translateX(15%);
+    width: 56.52;
+    height: 45.5px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    opacity: 0; 
+}
+
+header figure.nft-image-container:hover img.hover-icon {
+    opacity: 1;
+}
+
+header figure.nft-image-container:hover {
+    opacity: 0.5;
+    filter: sepia(rgb(25, 241, 240));
 }
 
 img.profile-pic {
     object-fit: contain;
     height: 42.39px;
     width: 45.5px;
+}
+
+section.nft-card-details {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 45.9px;
 }
 
 footer.nft-card-footer {
