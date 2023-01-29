@@ -157,10 +157,6 @@ header figure.nft-image-container:hover div.hover-layer-style {
   width: 301px;
   height: 306px;
   position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   opacity: 0.7;
 }
 
