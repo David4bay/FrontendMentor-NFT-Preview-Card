@@ -76,7 +76,7 @@ p.nft-card-description {
 }
 
 span.nft-card-duration {
-  display: flex;
+  display: fle6;
   font-size: 15px;
   color: hsl(215deg, 51%, 70%);
   margin-left: 9px;
@@ -85,7 +85,7 @@ span.nft-card-duration {
 span.nft-card-price {
   display: flex;
   margin-left: 9px;
-  font-size: 15px;
+  font-size: 16px;
   cursor: default;
   color: hsl(178deg, 100%, 50%);
 }
@@ -189,13 +189,13 @@ div.nft-footer-profile {
 }
 
 p.nft-creator-name {
-  margin-left: 13px;
+  margin-left: 16px;
   font-size: 13px;
   color: hsl(215deg, 51%, 70%);
 }
 
 span.highlighted-name {
-  font-size: 13px;
+  font-size: 16px;
   margin-left: 5px;
   color: hsl(0deg, 0%, 100%);
   transition: 0.4s;
