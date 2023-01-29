@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](.screenshot/Screenshot.PNG)
+![Screenshot](https://github.com/David4bay/FrontendMentor-NFT-Preview-Card/blob/master/Screenshot/Screenshot.PNG)
 
 ### Links
 
