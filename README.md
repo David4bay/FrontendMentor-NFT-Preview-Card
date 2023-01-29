@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/Screenshot.PNG)
+![Screenshot](./screenshot/Screenshot.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/David4bay/FrontendMentor-NFT-Preview-Card)
-- Live Site URL: [Add live site URL here](https://elegant-toffee-1a683f.netlify.app/)
+- Solution URL: [Github-Repo](https://github.com/David4bay/FrontendMentor-NFT-Preview-Card)
+- Live Site URL: [Hosted on Netlify](https://elegant-toffee-1a683f.netlify.app/)
 
 ## My process
 
