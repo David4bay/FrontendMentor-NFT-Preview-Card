@@ -138,10 +138,12 @@ img.hover-icon {
 
 header figure.nft-image-container:hover img.hover-icon {
     opacity: 1;
+    z-index: 1;
 }
 
 header figure.nft-image-container:hover {
-    opacity: 0.5;
+    opacity: 1;
+    z-index: 0;
 }
 
 img.profile-pic {
@@ -158,7 +160,7 @@ header figure.nft-image-container:hover div.hover-layer-style {
     width: 301px;
     height: 306px;
     position: absolute; 
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 section.nft-card-details {
