@@ -28,11 +28,12 @@ main {
     div.nft-card-body {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 351px;
         height: 597px;
-        padding: 25px 25px 25px 30px;
         border: 1px solid hsl(217, 54%, 11%);
-        box-shadow: -25px 25px 10px 10px;
+        box-shadow: -25px 25px 10px 5px;
         border-radius: 12px;
         background-color: hsl(216, 50%, 16%);
 
@@ -62,8 +63,7 @@ main {
 h1.card-title {
     font-size: 20px;
     color: hsl(0, 0%, 100%);
-    transition: 0.4s;
-    letter-spacing: 1px;
+    transition: all 0.4s;
 }
 
 h1.card-title:hover {
@@ -72,8 +72,7 @@ h1.card-title:hover {
 }
 
 p.nft-card-description {
-    font-size: 10px;
-    letter-spacing: 1px;
+    font-size: 16px;
     line-height: 1.4;
     color: hsl(215, 51%, 70%);
     margin-top: 20px;
@@ -90,6 +89,7 @@ span.nft-card-price {
     display: flex;
     margin-left: 9px;
     font-size: 15px;
+    cursor: default;
     color: hsla(178, 100%, 50%, 1);
 }
 
@@ -99,6 +99,7 @@ aside.nft-card-data {
     align-items: center;
     justify-content: space-between;
     margin-top: 27px;
+    cursor: default;
     margin-bottom: 18px;
     padding: 2px;
 }
