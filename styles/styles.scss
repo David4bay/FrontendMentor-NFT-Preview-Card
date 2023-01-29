@@ -45,6 +45,7 @@ main {
             border-radius: 12px;
             height: 306px;
             width: 301px;
+            transition: 0.4s;
             position: relative;
         }
         header.top-container {
@@ -136,6 +137,10 @@ img.hover-icon {
     opacity: 0; 
 }
 
+img.hover-icon:hover {
+    cursor: pointer;
+}
+
 header figure.nft-image-container:hover img.hover-icon {
     opacity: 1;
     z-index: 1;
@@ -161,6 +166,7 @@ header figure.nft-image-container:hover div.hover-layer-style {
     height: 306px;
     position: absolute; 
     opacity: 0.5;
+    cursor: pointer;
 }
 
 section.nft-card-details {
