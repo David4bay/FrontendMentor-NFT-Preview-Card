@@ -13,7 +13,7 @@
 
 body, html {
   min-height: 100vh;
-  font-family: Outline, sans-serif;
+  font-family: Outfit, sans-serif;
 }
 
 main {
@@ -68,7 +68,8 @@ h1.card-title:hover {
 }
 
 p.nft-card-description {
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 1.4;
   color: hsl(215deg, 51%, 70%);
   font-weight: lighter;
   margin-top: 27px;

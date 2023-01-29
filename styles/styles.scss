@@ -14,7 +14,7 @@
 
 body, html {
     min-height: 100vh;
-    font-family: Outline, sans-serif;
+    font-family: Outfit, sans-serif;
 }
 
 main {
@@ -67,14 +67,16 @@ h1.card-title {
 
 h1.card-title:hover {
     cursor: pointer;
-    color:hsl(178, 100%, 50%);
+    color:hsla(178, 100%, 50%, 1);
 }
 
 p.nft-card-description {
-    font-size: 15px;
+    font-size: 17px;
+    letter-spacing: 1.4;
     color: hsl(215, 51%, 70%);
     font-weight: lighter;
     margin-top: 27px;
+
 }
 
 span.nft-card-duration {
@@ -88,7 +90,7 @@ span.nft-card-price {
     display: flex;
     margin-left: 9px;
     font-size: 15px;
-    color: hsl(178, 100%, 50%);
+    color: hsla(178, 100%, 50%, 1);
 }
 
 aside.nft-card-data {
@@ -160,7 +162,7 @@ img.profile-pic {
 }
 
 header figure.nft-image-container:hover div.hover-layer-style {
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsla(178, 100%, 50%, 1);
     border-radius: 12px;
     width: 301px;
     height: 306px;
@@ -198,7 +200,7 @@ span.highlighted-name {
 }
 
 span.highlighted-name:hover {
-    color: hsl(178, 100%, 50%);
+    color: hsla(178, 100%, 50%, 1);
     cursor: pointer;
 }
 
