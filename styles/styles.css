@@ -32,7 +32,7 @@ main div.nft-card-body {
   width: 351px;
   height: 597px;
   border: 1px solid hsl(217deg, 54%, 11%);
-  box-shadow: -25px 25px 10px 5px;
+  box-shadow: -25px 10px 5px 5px;
   border-radius: 12px;
   background-color: hsl(216deg, 50%, 16%);
 }
