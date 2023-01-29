@@ -167,6 +167,12 @@ p.nft-creator-name {
     color: hsl(215, 51%, 70%)
 }
 
+span.highlighted-name {
+    font-size: 13px;
+    margin-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
 footer.nft-card-footer {
     display: flex;
     flex-direction: column;
