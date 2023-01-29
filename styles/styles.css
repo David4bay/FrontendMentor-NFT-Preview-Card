@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Outfit);
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@
 
 body, html {
   min-height: 100vh;
-  font-family: Outfit, sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 main {
@@ -29,7 +29,7 @@ main div.nft-card-body {
   flex-direction: column;
   width: 351px;
   height: 597px;
-  padding: 25px;
+  padding: 25px 25px 25px 30px;
   border: 1px solid hsl(217deg, 54%, 11%);
   box-shadow: -25px 25px 10px 10px;
   border-radius: 12px;
@@ -60,6 +60,7 @@ h1.card-title {
   font-size: 20px;
   color: hsl(0deg, 0%, 100%);
   transition: 0.4s;
+  letter-spacing: 1px;
 }
 
 h1.card-title:hover {
@@ -68,11 +69,11 @@ h1.card-title:hover {
 }
 
 p.nft-card-description {
-  font-size: 17px;
-  letter-spacing: 1.4;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1.4;
   color: hsl(215deg, 51%, 70%);
-  font-weight: lighter;
-  margin-top: 27px;
+  margin-top: 20px;
 }
 
 span.nft-card-duration {
@@ -95,7 +96,7 @@ aside.nft-card-data {
   align-items: center;
   justify-content: space-between;
   margin-top: 27px;
-  margin-bottom: 31px;
+  margin-bottom: 18px;
   padding: 2px;
 }
 
@@ -174,6 +175,8 @@ section.nft-card-details {
   flex-direction: column;
   align-content: flex-start;
   margin-top: 28px;
+  width: 306px;
+  height: 212px;
 }
 
 div.nft-footer-profile {
@@ -185,7 +188,7 @@ div.nft-footer-profile {
 }
 
 p.nft-creator-name {
-  margin-left: 9px;
+  margin-left: 13px;
   font-size: 13px;
   color: hsl(215deg, 51%, 70%);
 }
@@ -205,14 +208,16 @@ span.highlighted-name:hover {
 footer.nft-card-footer {
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
+  position: relative;
 }
-
-.attribution {
+footer.nft-card-footer div.attribution {
   font-size: 11px;
+  width: 100%;
   text-align: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
 }
-
-.attribution a {
+footer.nft-card-footer div.attribution a {
   color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
