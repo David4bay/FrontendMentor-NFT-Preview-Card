@@ -63,6 +63,7 @@ main {
 h1.card-title {
     font-size: 20px;
     color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
     transition: all 0.4s;
 }
 
@@ -74,19 +75,22 @@ h1.card-title:hover {
 p.nft-card-description {
     font-size: 16px;
     line-height: 1.4;
+    letter-spacing: 1px;
     color: hsl(215, 51%, 70%);
     margin-top: 20px;
 }
 
 span.nft-card-duration {
-    display: fle6;
-    font-size: 15px;
+    display: flex;
+    letter-spacing: 1px;
+    font-size: 16px;
     color: hsl(215, 51%, 70%);
     margin-left: 9px;
 }
 
 span.nft-card-price {
     display: flex;
+    letter-spacing: 1px;
     margin-left: 9px;
     font-size: 16px;
     cursor: default;
