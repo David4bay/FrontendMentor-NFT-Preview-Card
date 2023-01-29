@@ -22,7 +22,7 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(13, 26, 45);
+  background-color: hsl(217deg, 54%, 11%);
 }
 main div.nft-card-body {
   display: flex;
@@ -30,10 +30,10 @@ main div.nft-card-body {
   width: 351px;
   height: 597px;
   padding: 25px;
-  border: 1px solid rgb(8, 24, 47);
-  box-shadow: -25px 25px 10px 10px rgb(8, 24, 47);
+  border: 1px solid hsl(217deg, 54%, 11%);
+  box-shadow: -25px 25px 10px 10px;
   border-radius: 12px;
-  background-color: rgb(21, 39, 63);
+  background-color: hsl(216deg, 50%, 16%);
 }
 main div.nft-card-body header figure.nft-image-container {
   display: flex;
@@ -57,6 +57,12 @@ main div.nft-card-body header.top-container {
 
 h1.card-title {
   font-size: 20px;
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.4s;
+}
+
+h1.card-title:hover {
+  cursor: pointer;
   color: hsl(178deg, 100%, 50%);
 }
 
@@ -118,7 +124,7 @@ img.hover-icon {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 12px;
-  width: 56.52;
+  width: 56.52px;
   height: 45.5px;
   position: absolute;
   left: 0;
@@ -141,8 +147,21 @@ img.profile-pic {
      object-fit: contain;
   height: 35px;
   width: 33px;
-  border: 1px solid #fff;
+  border: 1px solid hsl(0deg, 0%, 100%);
   border-radius: 50%;
+}
+
+header figure.nft-image-container:hover div.hover-layer-style {
+  background-color: hsl(178deg, 100%, 50%);
+  border-radius: 12px;
+  width: 301px;
+  height: 306px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
 }
 
 section.nft-card-details {
@@ -156,7 +175,7 @@ div.nft-footer-profile {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-top: 1px solid hsl(215deg, 51%, 70%);
+  border-top: 1px solid hsl(215deg, 32%, 27%);
   padding-top: 15px;
 }
 
@@ -169,7 +188,13 @@ p.nft-creator-name {
 span.highlighted-name {
   font-size: 13px;
   margin-left: 5px;
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.4s;
+}
+
+span.highlighted-name:hover {
   color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
 }
 
 footer.nft-card-footer {
